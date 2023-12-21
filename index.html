@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Laundry</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Logo (Google Icon)-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-navbar">
+      <nav class="navbar">
+        <div class="container-logo">
+          <span class="material-symbols-outlined">laundry</span>
+          <span class="title">MyLaundry</span>
+        </div>
+        <div class="menu">
+          <div><a href="#home">Home</a></div>
+          <div><a href="#service">Service</a></div>
+          <div><a href="#contact">Contact</a></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="content">
+    <section class="content-1">
+      <h1>KAMI MENGURUS KEBERSIHAN, ANDA MENGURUS KEHIDUPAN.</h1>
+      <p>Kami adalah layanan laundry yang berkomitmen untuk menyediakan pengalaman mencuci yang praktis, handal, dan
+        berkualitas. Dengan teknologi modern dan perawatan teliti, kami menawarkan solusi lengkap untuk merawat
+        pakaian
+        Anda. Dari mencuci hingga pengeringan dan lipatan, kami memastikan kebersihan yang optimal dengan hasil yang
+        rapi dan nyaman untuk Anda nikmati setiap hari.
+      </p>
+    </section>
+    <section class="content-2">
+      <h1>LAYANAN YANG KAMI TAWARKAN</h1>
+      <p>Tidak ada pekerjaan terlalu besar atau terlalu kecil bagi kami. Dari kemeja yang memancarkan kesan profesional
+        hingga jas yang menandai momen istimewa, dari karpet yang menambah kehangatan rumah hingga sepatu yang setia
+        menemani langkah Anda, bahkan hingga kaos yang menjadi bagian dari gaya sehari-hari Anda, kami siap merawat
+        semuanya. Dengan layanan yang cermat dan teliti, setiap barang anda kami pelihara dengan penuh perhatian,
+        menjamin
+        kebersihan, keamanan, dan kualitas yang tak terbandingkan.
+      </p>
+      <div class="container-card">
+        <div class="card">
+          <figure>
+            <img src="img/kemeja1.jpg" alt="kemeja">
+          </figure>
+          <div>
+            <p>
+              Layanan ini melibatkan pencucian kemeja dari berbagai jenis kain dan model, termasuk kemeja formal, kaus,
+              atau kemeja kasual.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="img/jas1.webp" alt="jas">
+          </figure>
+          <div>
+            <p>
+              Layanan ini dilakukan oleh profesional yang terlatih untuk menangani berbagai jenis bahan jas seperti wol,
+              katun, atau linen dengan hati-hati.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="img/karpet1.jpg" alt="karpet">
+          </figure>
+          <div>
+            <p>
+              Layanan kami dapat disesuaikan dengan berbagai jenis karpet dan dilakukan oleh tim ahli yang terlatih
+              untuk memastikan karpet bersih, segar, dan terawat.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="img/sepatu1.jpeg" alt="sepatu">
+          </figure>
+          <div>
+            <p>
+              Layanan kami menggunakan teknik dan peralatan khusus untuk membersihkan berbagai jenis sepatu, baik
+              sneakers, sepatu kulit, atau sepatu olahraga.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="img/baju1.jpg" alt="baju">
+          </figure>
+          <div>
+            <p>
+              Tim kami akan memastikan pakaian bersih dari noda, kotoran, dan bau yang tidak diinginkan, sambil menjaga
+              kualitas dan warna pakaian.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-3">
+      <form action="#">
+        <h1>Contact Us</h1>
+        <table>
+          <tr>
+            <td><label for="name">Nama anda:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email anda:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+          </tr>
+          <tr>
+            <td><label for="message">Message:</label></td>
+            <td><textarea id="message" name="message" required></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center;">
+              <input type="submit" value="Submit">
+              <button type="button" onclick="cancelForm()">Cancel</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>
+      &copy; 2023 My Laundry - All Rights Reserved
+    </p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
